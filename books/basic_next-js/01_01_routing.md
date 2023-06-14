@@ -32,7 +32,7 @@ src/app ディレクトリ配下の「page.tsx」をページとして認識す�
 「なんとかcom/blog/hoge1」にアクセスした場合、hoge1を受け取るには
 \[id]配下のpage.tsxを以下のようにする
 
-``` ts
+``` TypeScript
 const Page = ({params}:{params: {id:string[]}}) => {
     return <div>Blog ID:{params.id}</div>;
 };
