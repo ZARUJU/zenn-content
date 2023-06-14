@@ -1,0 +1,11 @@
+title: "Next.jsを理解する"
+summary: "Next.jsを理解するに際しての個人的なメモ"
+topics: [nextjs]
+published: true
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - 00_01_enviroment
+  - 00_02_start-project
+  - 01_00_a
+  - 01_01_routing
