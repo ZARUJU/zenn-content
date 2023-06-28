@@ -1,29 +1,27 @@
 ---
-title: "RoutingとURLを受け取る方法"
+title: "Routing：ページ遷移とURLを受け取る方法"
 ---
 
-### Pages Router
+# Pages Router
 
 pages ディレクトリにディレクトリを作成することでルーティングを作成する
 ファイルをページとして認識する
 
-----
-### App Router
+
+# App Router
 
 app ディレクトリにディレクトリを作成することでルーティングを作成する
 src/app ディレクトリ配下の「page.tsx」をページとして認識する
 
-----
-### Route Group
+## Route Group
 
 ルーティングのパスに影響を与えないディレクトリを作成する方法の一つ
 ディレクトリを()で囲む必要がある。
 例）　(example)ディレクトリ
 
-----
-### Dynamic Routes と URLを受け取る方法
+## Dynamic Routes と URLを受け取る方法
 
-##### シンプルな形
+#### シンプルな形
 
 動的なルーティングを可能にする
 \[]でディレクトリ名を囲む
@@ -45,7 +43,7 @@ paramsという配列のidキーに対応する値を表示するって感じの
 URL：なんとかcom/blog/hoge1/hoge2の場合は、
 \[...id]とすることで配列の形で受け取ることができるっぽい
 
-##### catch-all-segments の設定
+#### catch-all-segments の設定
 
 app/blog/\[id]/\[userId]/\[categoryId]　は、どうするのって話
 
@@ -69,3 +67,4 @@ const Page = ({
 
 \[userID] 配下にも別の page.tsx を配置して別の画面表示ってこともできる。
 ユーザーの投稿一覧ページだとかさ
+

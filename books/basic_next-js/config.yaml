@@ -8,4 +8,7 @@ chapters:
   - 00_01_enviroment
   - 00_02_start-project
   - 01_00_a
+  - 01_00_a
   - 01_01_routing
+  - 01_02_link-component
+  - 01_03_original-component
