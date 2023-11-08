@@ -1,9 +1,0 @@
-title: "【Next.js】GitHubのMarkdownからブログを作る"
-summary: "タイトル通り、GitHubのリポジトリからMarkdownを取得して、ブログを作成できるようになるための本です"
-topics: ["nextjs", "markdown", "github", "blog"]
-published: false
-price: 0 # 有料の場合200〜5000
-# 本に含めるチャプターを順番に並べましょう
-chapters:
-  - chapter_1
-  - example2
