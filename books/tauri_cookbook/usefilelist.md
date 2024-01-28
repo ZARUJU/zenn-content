@@ -2,6 +2,32 @@
 title: "【useFileList】ファイルの一覧を取得するカスタムフック"
 ---
 
+# できないこと
+
+- 存在しないファイルパスのエラー処理
+
+# 設定
+
+```json
+{
+  "tauri": {
+    "allowlist": {
+      "fs": {
+        "all": false, // enable all FS APIs
+        "readFile": false,
+        "writeFile": false,
+        "readDir": true,
+        "copyFile": false,
+        "createDir": false,
+        "removeDir": false,
+        "removeFile": false,
+        "renameFile": false,
+        "exists": false
+      }
+    }
+  }
+}
+```
 
 
 # カスタムフックのコード
