@@ -1,3 +1,24 @@
-# Zenn CLI
+```
+npm init --yes
+```
 
-* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
+```
+npm install zenn-cli
+```
+
+```
+npx zenn preview
+```
+
+```
+npm install zenn-cli@latest
+```
+
+```
+npx zenn new:article
+```
+
+```
+npx zenn new:book
+```
+
